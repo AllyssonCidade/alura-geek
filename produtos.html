@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek...</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/produtos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/creditos.css">
+    <link rel="stylesheet" href="./assets/css/adicionarProduto.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <form class="cabecalho__form">
+            <a href="./index.html"><img src="./assets/imagens/Logo.png" alt="logo alura" class="cabecalho__logo"></a>
+            <input type="text" value="" class="cabecalho__pesquisa" placeholder="O que você deseja encontrar?">
+            <button type="button" class="cabecalho__lupa"></button>
+        </form>
+        <a href="./home.html" name="login" class="cabecalho__login cabecalho__menuAdm">Menu Administrador</a>
+    </header>
+    <form class="adicionar" data-formulario>
+        <h2 class="adicionar__titulo">Adicionar novo produto</h2>
+        <input type="text" class="adicionar__imagem input" placeholder="URL da imagem" data-url>
+        <input type="text" class="adicionar__categoria input" placeholder="Categoria" data-section>
+        <input type="text" class="adicionar__nome input" placeholder="Nome do produto" data-nome>
+        <input type="text" class="adicionar__preco input" placeholder="Preço do produto" data-price>
+        <input type="text" class="adicionar__descricao input" placeholder="Descrição do produto" data-descricao>
+        <input type="text" class="adicionar__id input" placeholder="ID" data-id>
+        <input type="text" class="adicionar__alt input" placeholder="alt" data-alt>
+
+        <button type="submit" class="adicionar__botao">Adicionar Produto</button>
+    </form>
+
+    <footer class="footer">
+        <img src="./assets/imagens/Logo.png" alt="Logo Alura" class="footer__logo">
+        <ul alt="lista de itens" class="footer__links">
+            <li class="footer__links__item">Quem somos nós</li>
+            <li class="footer__links__item">Politíca de privacidade</li>
+            <li class="footer__links__item">Programa fidelidade</li>
+            <li class="footer__links__item">Nossas lojas</li>
+            <li class="footer__links__item">Quero ser franqueado</li>
+            <li class="footer__links__item">Anuncie aqui</li>
+        </ul>
+        <form action="" class="footer__contato">
+            <h4 class="footer__contato__titulo">Fale conosco</h4>
+            <input type="text" id="nome" class="footer__contato__nome" placeholder="Nome">
+            <input type="text" id="mensagem" class="footer__contato__mensagem" placeholder="Escreva sua mensagem">
+            <button type="submit" class="footer__contato__botao">Enviar mensagem</button>
+        </form>
+    </footer>
+    <div class="creditos">
+        <p>Desenvolvido por Allysson Cidade</p>
+        <span>2023</span>
+    </div>
+    <script type="module" src="./assets/js/criarProduto.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    --color-blue: rgba(42, 122, 228, 1);
+    --color-gray: rgba(245, 245, 245, 1);
+}
+body{
+    overflow-x: hidden;
+}

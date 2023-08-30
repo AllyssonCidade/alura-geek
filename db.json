@@ -1,0 +1,67 @@
+{
+  "produto": [
+    {
+      "nome": "Baby-Yoda",
+      "url": "./assets/imagens/babyYoda.png",
+      "price": "100.00",
+      "id": "1",
+      "alt": "baby yoda",
+      "descricao": "loren ...",
+      "section": "Star-Wars"
+    },
+    {
+      "nome": "Darth-Vader",
+      "url": "./assets/imagens/darthVader.png",
+      "price": "100.00",
+      "id": "2",
+      "alt": "darthVader",
+      "descricao": "loren ...",
+      "section": "Star-Wars"
+    },
+    {
+      "nome": "Assassins Creed",
+      "url": "https://i.pinimg.com/originals/51/55/0c/51550c16101bf97205324b567e8d59c7.jpg",
+      "price": "199,00",
+      "id": "3",
+      "alt": "Assassins Creed",
+      "descricao": "Action Figure Assassins Creed",
+      "section": "Assassinc-Creed"
+    },
+    {
+      "nome": "Combo Batman",
+      "url": "https://tse4.mm.bing.net/th?id=OIP.uXlgIQJhNe-yg350oVwDKQHaHr&pid=Api&P=0&h=180",
+      "price": "800,00",
+      "id": "4",
+      "alt": "Combo de batman",
+      "descricao": "Combo de batman",
+      "section": "Batman"
+    },
+    {
+      "nome": "Mini Ezio | Assassins-Creed",
+      "url": "https://tse4.mm.bing.net/th?id=OIP.Rm-M39ARICf23zMbuwLUdAHaLH&pid=Api&P=0&h=180",
+      "price": "80,00",
+      "id": "5",
+      "alt": "Mini Ezio | Assassins-Creed",
+      "descricao": "Mini Ezio | Assassins-Creed",
+      "section": "Assassins-Creed"
+    },
+    {
+      "nome": "Batman",
+      "url": "https://tse4.explicit.bing.net/th?id=OIP.6CxV_tc5R-vu0zKJlUOTLwHaFP&pid=Api&P=0&h=180",
+      "price": "210,00",
+      "id": "6",
+      "alt": "Action Figure Batman",
+      "descricao": "Action Figure Batman",
+      "section": "Batman"
+    },
+    {
+      "nome": "Batman Arkham Knight",
+      "url": "https://tse3.mm.bing.net/th?id=OIP.DAPwKMAEXnsyGczOHTcLyQHaHa&pid=Api&P=0&h=180",
+      "price": "140,00",
+      "id": "7",
+      "alt": "Action Figure Batman Arkham Knight",
+      "descricao": "Action Figure Batman Arkham Knight",
+      "section": "Batman"
+    }
+  ]
+}

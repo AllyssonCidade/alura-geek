@@ -1,0 +1,66 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.cabecalho__form a{
+    cursor: pointer;
+}
+
+.cabecalho__form {
+    display: flex;
+    flex-shrink: 2;
+    gap: 32px;
+    align-items: center;
+}
+
+.cabecalho__pesquisa {
+    background: var(--color-gray);
+    border-radius: 20px;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 20px;
+    background: var(--preto-05, #F5F5F5);
+    padding-left: 20px;
+    border: none;
+}
+
+.cabecalho__lupa {
+    cursor: pointer;
+    margin-left: -80px;
+    border: none;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: red;
+    background-color: red;
+    background: url(../imagens/search.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cabecalho__login {
+    display: flex;
+    width: 182px;
+    padding: 16px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 1px solid var(--color-blue);
+    color: var(--color-blue);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url(../imagens/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}

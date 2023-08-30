@@ -1,0 +1,41 @@
+.adicionar {
+    background: var(--preto-05, #F5F5F5);
+    padding: 10vh 20vw 10vh 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.adicionar__titulo {
+    color: var(--preto-100, #464646);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5vh;
+}
+
+.input {
+    padding: 2vh 2vh 5vh 2vh;
+}
+
+.adicionar__descricao {
+    padding-bottom: 10vh;
+}
+
+.adicionar__botao {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: var(--azul-100, #2A7AE4);
+    color: var(--preto-branco, #FFF);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}

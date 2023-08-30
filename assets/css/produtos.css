@@ -1,0 +1,119 @@
+.produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.produtos__produtos {
+    display: flex;
+    gap: 2vw;
+    row-gap: 20vh;
+    flex-wrap: wrap;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.produtos__titulo {
+    flex-basis: 100vw;
+    margin: 5px;
+    font-size: 32px;
+}
+
+.produtos__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding-bottom: 5vh;
+    width: 200px;
+    height: 200px;
+}
+
+.card__imagem {
+    flex: 1 0 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.card__id{
+    display: none;
+}
+
+.card__titulo {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.card__valor {
+    color: var(--preto-100, #464646);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.produtos__card a {
+    text-decoration: none;
+}
+
+.card__verProduto {
+    color: var(--azul-100, #2A7AE4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.produtos__home {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20vh;
+    justify-content: space-between;
+    row-gap: 10vh;
+    background: var(--preto-05, #F5F5F5);
+}
+
+.produtos__topo__botao{
+    text-decoration: none;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--azul-100, #2A7AE4);
+    color: var(--preto-branco, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.produtos__topo {
+    margin: 0 auto;
+    flex-basis: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit{
+    color: wheat;
+    background-color: #F5F5F5;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+}
+
+.delet{
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
